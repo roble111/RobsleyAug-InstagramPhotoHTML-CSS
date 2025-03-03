@@ -1,0 +1,48 @@
+* {
+    Border: 1px transparent solid;
+
+}
+body {
+    margin: 0;
+}
+
+.ig-head {
+    text-align: center;
+    height: 40px;
+    font-weight: bold;
+}
+h3 {
+    margin: 0;
+    margin-top: 5px;
+}
+
+.ig-body {
+    background: lightgray;
+    min-height: 92vh;
+}
+.ig-post {
+    width:500px;
+    height:400px;
+    margin:30px auto 30px;
+    background: white;
+}
+
+.ig-post-image img {
+    width: 100%;
+}
+.ig-post-header {
+    display: flex;
+    max-width: 100%; 
+    justify-content: space-between;
+    padding:5px 10px;
+}
+.ig-post-header-title{
+    font-weight: bold;
+}
+.ig-post-header-dates{
+    color: slategrey;
+}
+.ig-post-comment{
+    padding-left: 10px;
+    padding-right: 10px;
+}
